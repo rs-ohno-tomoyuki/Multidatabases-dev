@@ -1,0 +1,43 @@
+{
+    "name": "netcommons/multidatabases",
+    "description": "Multidatabases for NetCommons Plugin",
+    "homepage": "http://www.netcommons.org/",
+    "extra": {
+        "installer-paths": {
+            "app/Plugin/{$name}": ["type:cakephp-plugin"]
+        }
+    },
+    "require": {
+        "cakedc/migrations":            "~2.2",
+        "netcommons/blocks":            "@dev",
+        "netcommons/categories":        "@dev",
+        "netcommons/content-comments":  "@dev",
+        "netcommons/files":             "@dev",
+        "netcommons/likes":             "@dev",
+        "netcommons/mails":             "@dev",
+        "netcommons/net-commons":       "@dev",
+        "netcommons/pages":             "@dev",
+        "netcommons/plugin-manager":    "@dev",
+        "netcommons/tags":              "@dev",
+        "netcommons/users":             "@dev",
+        "netcommons/workflow":          "@dev"
+    },
+    "license": "NetCommons License",
+    "authors": [
+        {
+          "name": "Tomoyuki Ohno (Ricksoft Co.,LTD)",
+          "email": "ohno.tomoyuki@ricksoft.jp",
+          "homepage": "https://www.ricksoft.jp/",
+          "role": "Developer"
+        },
+        {
+            "name": "NetCommons Community",
+            "homepage": "http://www.netcommons.org"
+        }
+    ],
+    "type":        "cakephp-plugin",
+    "keywords":    ["cakephp", "multidatabases"],
+    "config": {
+        "vendor-dir": "vendors"
+    }
+}
